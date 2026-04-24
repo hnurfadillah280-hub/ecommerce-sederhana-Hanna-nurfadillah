@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kedai Kopi Digital</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Aroma Kopi Senja</h1>
+      <p>Pilih rasa favoritmu dan nikmati hari ini.</p>
+    </header>
+
+    <main class="product-container">
+      <div class="product-card">
+        <div class="badge">Best Seller</div>
+        <div class="image-box">
+          <img src="image/image-1.jpg" alt="image-1" />
+        </div>
+        <div class="card-content">
+          <h2>Gula Aren Latte</h2>
+          <p class="price">Rp 25.000</p>
+          <p class="desc">
+            Perpaduan espresso mantap dengan manis khas gula aren.
+          </p>
+          <button onclick="addToCart('Gula Aren Latte')">
+            Tambah ke Keranjang
+          </button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="image/image-2.jpg" alt="image-2" />
+        </div>
+        <div class="card-content">
+          <h2>Creamy Vanilla</h2>
+          <p class="price">Rp 28.000</p>
+          <p class="desc">
+            Sentuhan vanilla yang lembut untuk pecinta kopi ringan.
+          </p>
+          <button onclick="addToCart('Creamy Vanilla')">
+            Tambah ke Keranjang
+          </button>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <div class="image-box">
+          <img src="image/img-3.jpg" alt="image-3" />
+        </div>
+        <div class="card-content">
+          <h2>Dark Mocha</h2>
+          <p class="price">Rp 30.000</p>
+          <p class="desc">Cokelat pekat bertemu kopi arabika terbaik.</p>
+          <button onclick="addToCart('Dark Mocha')">Tambah ke Keranjang</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
