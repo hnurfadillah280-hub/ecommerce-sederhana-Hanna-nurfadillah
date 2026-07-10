@@ -1,0 +1,649 @@
+<header class="relative bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center">
+    <div class="bg-black/50">
+        <div class="max-w-6xl mx-auto px-6 py-32 text-center text-white">
+
+            <h1 class="text-6xl font-extrabold mb-6">
+                Welcome to Hanna's Coffee
+            </h1>
+
+            <p class="text-xl max-w-3xl mx-auto leading-9 mb-8">
+                Nikmati setiap tegukan kopi pilihan dan minuman favorit dengan cita rasa terbaik.
+                Dibuat dari bahan berkualitas premium untuk menemani setiap momen spesial Anda.
+            </p>
+
+            <p class="text-lg italic text-yellow-200 mb-10">
+                "Setiap cangkir bukan hanya minuman, tetapi cerita yang siap menemani harimu."
+            </p>
+
+            <a href="#menu"
+                class="bg-yellow-600 hover:bg-yellow-700 px-10 py-4 rounded-full text-lg font-semibold transition">
+                ☕ Pesan Sekarang
+            </a>
+
+        </div>
+    </div>
+</header>
+
+<div class="text-center mb-12">
+
+<h2 class="text-4xl font-bold text-[#5C4033]">
+Menu Favorit Hari Ini
+</h2>
+
+<p class="mt-4 text-gray-600 text-lg">
+Pilih minuman favoritmu dan rasakan sensasi kopi premium yang dibuat langsung oleh barista profesional.
+</p>
+
+<p class="mt-3 text-[#C29B70] italic text-xl">
+✨ Segelas kebahagiaan dimulai dari satu tegukan.
+</p>
+
+</div>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanna's Caffe | Aesthetic E-Commerce</title>
+    <!-- Tailwind CSS untuk Tampilan Modern & Aesthetic -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-32W2LG32Q7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-32W2LG32Q7');
+</script>
+   <style>
+
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FAF7F2; /* Warna cream hangat estetik */
+        }
+    </style>
+</head>
+<body class="text-stone-800 antialiased">
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-40 bg-[#FAF7F2]/80 backdrop-blur-md border-b border-stone-200/60">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold tracking-wide text-[#5C4033]">Hanna's<span class="text-[#C29B70]">.Caffe</span></a>
+            <div class="flex items-center gap-6">
+                <a href="#menu" class="hover:text-[#C29B70] transition-colors font-medium">Menu</a>
+                <!-- Tombol Keranjang -->
+                <button onclick="toggleCart()" class="relative p-2 text-stone-700 hover:text-[#5C4033] transition-colors cursor-pointer">
+                    <i class="fa-solid fa-bag-shopping text-xl"></i>
+                    <span id="cart-count" class="absolute -top-1 -right-1 bg-[#C29B70] text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold hidden">0</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <header class="max-w-6xl mx-auto px-4 py-12 md:py-20 text-center">
+        <span class="text-xs uppercase tracking-widest text-[#C29B70] font-semibold bg-[#C29B70]/10 px-3 py-1 rounded-full">Sip, Relax, & Enjoy</span>
+        <h1 class="text-4xl md:text-6xl font-extrabold text-[#5C4033] mt-4 mb-6 leading-tight">Savor the Coffee,<br>Embrace the Aesthetic.</h1>
+        <p class="text-stone-600 max-w-lg mx-auto text-sm md:text-base mb-8">Dibuat dengan biji kopi pilihan terbaik untuk menemani setiap cerita dan produktivitas harianmu.</p>
+        <a href="#menu" class="bg-[#5C4033] text-white px-8 py-3 rounded-xl shadow-lg shadow-[#5C4033]/20 hover:bg-[#4A3226] transition-all inline-block font-medium">Lihat Menu Kopi</a>
+    </header>
+
+    <!-- MENU SECTION (8 VARIAN KOPI) -->
+    <main id="menu" class="max-w-6xl mx-auto px-4 py-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-[#5C4033] mb-2 text-center">Our Signature Coffee</h2>
+        <p class="text-stone-500 text-sm text-center mb-10">Pilih varian rasa favoritmu langsung ke dalam keranjang</p>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <!-- Produk 1 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="vanilla latte.jpeg" alt="Vanilla Latte" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Creamy Series</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Vanilla Latte</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Perpaduan espresso lembut, susu segar, dan sirup vanilla premium.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 28.000</span>
+                    <button onclick="addToCart('Vanilla Latte', 28000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 2 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="Flavoured Latte.jpg" alt="Iced Aren Latte" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Local Heritage</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Iced Aren Latte</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Kopi susu kekinian dengan racikan manisnya gula aren murni.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 25.000</span>
+                    <button onclick="addToCart('Iced Aren Latte', 25000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 3 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="cappucino clasik.jpeg" alt="Cappuccino Classic" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Classic Bold</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Cappuccino Classic</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Keseimbangan sempurna antara espresso, susu, dan foam tebal.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 26.000</span>
+                    <button onclick="addToCart('Cappuccino Classic', 26000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 4 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="carramel machiato.jpeg" alt="Caramel Macchiato" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Sweet Signature</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Caramel Macchiato</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Espresso dengan lapisan vanilla, steamed milk, dan drizzle karamel.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 32.000</span>
+                    <button onclick="addToCart('Caramel Macchiato', 32000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 5 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="ice cafe mocha.jpeg" alt="Iced Cafe Mocha" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Choco Coffee</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Iced Cafe Mocha</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Paduan cokelat premium pekat dan espresso shot yang nikmat.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 30.000</span>
+                    <button onclick="addToCart('Iced Cafe Mocha', 30000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 6 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="flat white.jpeg" alt="Aesthetic Flat White" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Minimalist Latte</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Flat White</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Mirip latte namun dengan takaran kopi lebih dominan dan tekstur halus.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 27.000</span>
+                    <button onclick="addToCart('Flat White', 27000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 7 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="Low Calorie Cold Brew Coffee - Lose Weight By Eating.jpg" alt="Cold Brew Clean" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Slow Brewed</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Hanna's Cold Brew</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Kopi hitam yang diekstraksi dingin selama 12 jam, ringan dan segar.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 29.000</span>
+                    <button onclick="addToCart('Hanna\'s Cold Brew', 29000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+
+            <!-- Produk 8 -->
+            <div class="bg-white rounded-2xl p-3 border border-stone-100 shadow-xs hover:shadow-md transition-all flex flex-col justify-between">
+                <div>
+                    <img src="Hazelnut Vanilla Bean Espresso Euphoria.jpg" alt="Hazelnut Frappe" class="w-full h-40 object-cover rounded-xl mb-4">
+                    <span class="text-xs font-semibold text-[#C29B70] uppercase">Blended Ice</span>
+                    <h3 class="font-bold text-stone-800 text-base mt-1">Hazelnut Frappe</h3>
+                    <p class="text-stone-500 text-xs mt-1 line-clamp-2">Kopi blender es manis dengan paduan gurihnya rasa hazelnut kacang.</p>
+                </div>
+                <div class="mt-4 flex flex-col gap-2">
+                    <span class="font-bold text-[#5C4033]">Rp 34.000</span>
+                    <button onclick="addToCart('Hazelnut Frappe', 34000)" class="w-full bg-stone-100 text-[#5C4033] hover:bg-[#5C4033] hover:text-white transition-all py-2 rounded-xl text-xs font-semibold cursor-pointer">+ Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- ================= NON COFFEE ================= -->
+<section id="noncoffee" class="py-16 bg-[#FFF8F1]">
+
+    <div class="text-center mb-12">
+
+        <h2 class="text-4xl font-bold text-[#5C4033]">
+            🥤 Non Coffee Series
+        </h2>
+
+        <p class="text-gray-600 mt-4 max-w-3xl mx-auto">
+            Bagi kamu yang tidak menyukai kopi, Hanna's Coffee menghadirkan pilihan
+            minuman non kopi dengan bahan premium, rasa yang lembut, creamy,
+            dan menyegarkan. Cocok dinikmati kapan saja bersama keluarga,
+            sahabat, maupun orang tersayang.
+        </p>
+
+        <p class="italic text-[#C29B70] mt-4 text-lg">
+            "Fresh Taste, Sweet Moment, Every Sip Brings Happiness."
+        </p>
+
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- MATCHA -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+
+            <img
+            src="Matcha Latte ☕.jpg"
+            alt="Matcha Latte"
+            class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <span class="text-green-600 font-semibold text-sm">
+                    NON COFFEE
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    🍵 Matcha Latte
+                </h3>
+
+                <p class="text-gray-500 mt-3 text-sm">
+                    Matcha premium Jepang dipadukan susu segar menghasilkan rasa
+                    lembut, creamy, sedikit manis, dan aroma teh hijau yang khas.
+                    Cocok untuk pencinta minuman sehat.
+                </p>
+
+                <h4 class="font-bold text-[#5C4033] text-xl mt-4">
+                    Rp29.000
+                </h4>
+
+                <button
+                onclick="addToCart('Matcha Latte',29000)"
+                class="mt-4 w-full bg-[#5C4033] hover:bg-[#7B563E] text-white py-3 rounded-xl font-semibold">
+                    + Tambah ke Keranjang
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- CHOCOLATE -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+
+            <img
+            src="coklat.jpeg"
+            alt="Chocolate Latte"
+            class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <span class="text-yellow-700 font-semibold text-sm">
+                    NON COFFEE
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    🍫 Chocolate Latte
+                </h3>
+
+                <p class="text-gray-500 mt-3 text-sm">
+                    Cokelat premium dengan susu creamy menghasilkan rasa manis,
+                    lembut, dan aroma cokelat yang kaya. Pilihan favorit
+                    pecinta minuman cokelat.
+                </p>
+
+                <h4 class="font-bold text-[#5C4033] text-xl mt-4">
+                    Rp28.000
+                </h4>
+
+                <button
+                onclick="addToCart('Chocolate Latte',28000)"
+                class="mt-4 w-full bg-[#5C4033] hover:bg-[#7B563E] text-white py-3 rounded-xl font-semibold">
+                    + Tambah ke Keranjang
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- TARO -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+
+            <img
+            src="Cute Taro Latte Doodle Aesthetic 💜🧋.jpg"
+            alt="Taro Latte"
+            class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <span class="text-purple-600 font-semibold text-sm">
+                    NON COFFEE
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    💜 Taro Latte
+                </h3>
+
+                <p class="text-gray-500 mt-3 text-sm">
+                    Perpaduan taro premium dan susu segar menghasilkan rasa
+                    manis, creamy, lembut, dengan aroma khas yang memanjakan
+                    setiap tegukan.
+                </p>
+
+                <h4 class="font-bold text-[#5C4033] text-xl mt-4">
+                    Rp28.000
+                </h4>
+
+                <button
+                onclick="addToCart('Taro Latte',28000)"
+                class="mt-4 w-full bg-[#5C4033] hover:bg-[#7B563E] text-white py-3 rounded-xl font-semibold">
+                    + Tambah ke Keranjang
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- STRAWBERRY -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition">
+
+            <img
+            src="Creamy strawberry Ice-cream.jpg"
+            alt="Strawberry Milk"
+            class="w-full h-64 object-cover">
+
+            <div class="p-5">
+
+                <span class="text-pink-500 font-semibold text-sm">
+                    NON COFFEE
+                </span>
+
+                <h3 class="text-xl font-bold mt-2">
+                    🍓 Strawberry Milk
+                </h3>
+
+                <p class="text-gray-500 mt-3 text-sm">
+                    Susu segar dipadukan stroberi pilihan menghadirkan rasa
+                    manis, creamy, dan menyegarkan. Minuman favorit untuk
+                    menemani hari yang lebih ceria.
+                </p>
+
+                <h4 class="font-bold text-[#5C4033] text-xl mt-4">
+                    Rp27.000
+                </h4>
+
+                <button
+                onclick="addToCart('Strawberry Milk',27000)"
+                class="mt-4 w-full bg-[#5C4033] hover:bg-[#7B563E] text-white py-3 rounded-xl font-semibold">
+                    + Tambah ke Keranjang
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- =============== END NON COFFEE =============== -->
+
+    <!-- SHOPPING CART PANEL (SLIDEOUT DRAWER) -->
+    <div id="cart-drawer" class="fixed top-0 right-0 h-full w-full sm:w-96 bg-white shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col">
+        <div class="p-4 border-b border-stone-100 flex justify-between items-center bg-[#5C4033] text-white">
+            <h3 class="font-bold text-lg"><i class="fa-solid fa-cart-shopping mr-2"></i>Keranjang Anda</h3>
+            <button onclick="toggleCart()" class="text-white hover:text-stone-200 text-xl cursor-pointer">&times;</button>
+        </div>
+        
+        <!-- List Item Belanjaan -->
+        <div id="cart-items" class="flex-1 overflow-y-auto p-4 space-y-4">
+            <p class="text-stone-400 text-sm text-center py-8">Keranjang belanja masih kosong.</p>
+        </div>
+
+        <!-- Formulir Data Pelanggan & Checkout -->
+        <div class="p-4 bg-stone-50 border-t border-stone-100 space-y-4 overflow-y-auto max-h-[60vh]">
+            <!-- Input Data Diri -->
+            <div class="space-y-3 bg-white p-3 rounded-xl border border-stone-200/60">
+                <span class="text-xs font-semibold text-stone-500 uppercase tracking-wider block">Informasi Pengiriman</span>
+                <div>
+                    <label class="block text-xs text-stone-600 mb-1">Nama Lengkap</label>
+                    <input type="text" id="cust-name" placeholder="Masukkan nama Anda" class="w-full text-sm border border-stone-200 rounded-lg p-2 focus:outline-none focus:border-[#C29B70]">
+                </div>
+                <div>
+                    <label class="block text-xs text-stone-600 mb-1">Email</label>
+                    <input type="email" id="cust-email" placeholder="nama@email.com" class="w-full text-sm border border-stone-200 rounded-lg p-2 focus:outline-none focus:border-[#C29B70]">
+                </div>
+                <div>
+                    <label class="block text-xs text-stone-600 mb-1">Alamat Lengkap</label>
+                    <textarea id="cust-address" rows="2" placeholder="Nama jalan, nomor rumah, RT/RW, kecamatan" class="w-full text-sm border border-stone-200 rounded-lg p-2 focus:outline-none focus:border-[#C29B70]"></textarea>
+                </div>
+            </div>
+
+            <!-- Ringkasan Total -->
+            <div class="flex justify-between font-bold text-stone-800 px-1">
+                <span>Total Bayar:</span>
+                <span id="cart-total">Rp 0</span>
+            </div>
+            
+            <hr class="border-stone-200">
+            
+            <!-- Pilihan Pembayaran -->
+            <div>
+                <label class="block text-xs font-semibold text-stone-500 uppercase mb-2">Metode Pembayaran</label>
+                <div class="grid grid-cols-2 gap-2 text-xs">
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="DANA" checked class="accent-[#5C4033]">
+                        <span>DANA</span>
+                    </label>
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="SeaBank" class="accent-[#5C4033]">
+                        <span>SeaBank</span>
+                    </label>
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="BNI" class="accent-[#5C4033]">
+                        <span>BNI Virtual</span>
+                    </label>
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="BRI" class="accent-[#5C4033]">
+                        <span>BRI Virtual</span>
+                    </label>
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="GoPay" class="accent-[#5C4033]">
+                        <span>GoPay</span>
+                    </label>
+                    <label class="border border-stone-200 p-2 rounded-xl flex items-center gap-2 bg-white cursor-pointer hover:border-[#C29B70]">
+                        <input type="radio" name="payment" value="ShopeePay" class="accent-[#5C4033]">
+                        <span>ShopeePay</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Tombol Aksi Pembayaran -->
+            <button onclick="checkoutNow()" class="w-full bg-[#5C4033] hover:bg-[#4A3226] text-white py-3 rounded-xl font-semibold shadow-md transition-all cursor-pointer">
+                Checkout Sekarang
+            </button>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="border-t border-stone-200/60 mt-20 bg-stone-100 py-6 text-center text-xs text-stone-500">
+        &copy; 2026 Hanna's Caffe. All rights reserved. Made with love and coffee.
+    </footer>
+
+    <!-- LOGIKA INTERAKTIF (JAVASCRIPT) -->
+    <script>
+        let cart = [];
+
+        function toggleCart() {
+            const drawer = document.getElementById('cart-drawer');
+            drawer.classList.toggle('translate-x-full');
+        }
+
+        function addToCart(name, price) {
+            const existingItem = cart.find(item => item.name === name);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ name, price, quantity: 1 });
+            }
+            updateCartUI();
+            
+            const drawer = document.getElementById('cart-drawer');
+            if (drawer.classList.contains('translate-x-full')) {
+                toggleCart();
+            }
+        }
+
+        function updateCartUI() {
+            const cartItemsContainer = document.getElementById('cart-items');
+            const cartCountLabel = document.getElementById('cart-count');
+            const cartTotalLabel = document.getElementById('cart-total');
+            
+            if (cart.length === 0) {
+                cartItemsContainer.innerHTML = `<p class="text-stone-400 text-sm text-center py-8">Keranjang belanja masih kosong.</p>`;
+                cartCountLabel.classList.add('hidden');
+                cartTotalLabel.innerText = "Rp 0";
+                return;
+            }
+
+            let totalItems = 0;
+            let totalPrice = 0;
+            cartItemsContainer.innerHTML = '';
+
+            cart.forEach((item, index) => {
+                totalItems += item.quantity;
+                totalPrice += (item.price * item.quantity);
+
+                cartItemsContainer.innerHTML += `
+                    <div class="flex justify-between items-center bg-stone-50 p-3 rounded-xl border border-stone-100">
+                        <div>
+                            <h4 class="font-bold text-sm text-stone-800">${item.name}</h4>
+                            <p class="text-xs text-stone-500">Rp ${item.price.toLocaleString('id-ID')} &times; ${item.quantity}</p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button onclick="changeQuantity(${index}, -1)" class="w-6 h-6 bg-stone-200 rounded-md text-xs font-bold hover:bg-stone-300 cursor-pointer">-</button>
+                            <span class="text-sm font-semibold">${item.quantity}</span>
+                            <button onclick="changeQuantity(${index}, 1)" class="w-6 h-6 bg-stone-200 rounded-md text-xs font-bold hover:bg-stone-300 cursor-pointer">+</button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            cartCountLabel.innerText = totalItems;
+            cartCountLabel.classList.remove('hidden');
+            cartTotalLabel.innerText = `Rp ${totalPrice.toLocaleString('id-ID')}`;
+        }
+
+        function changeQuantity(index, amount) {
+            cart[index].quantity += amount;
+            if (cart[index].quantity <= 0) {
+                cart.splice(index, 1);
+            }
+            updateCartUI();
+        }
+
+        function checkoutNow() {
+            // Validasi produk
+            if (cart.length === 0) {
+                alert('Keranjang Anda masih kosong, yuk pilih kopi favoritmu dulu!');
+                return;
+            }
+
+            // Validasi Input Data Pelanggan
+            const name = document.getElementById('cust-name').value.trim();
+            const email = document.getElementById('cust-email').value.trim();
+            const address = document.getElementById('cust-address').value.trim();
+
+            if (!name || !email || !address) {
+                alert('Silakan lengkapi Nama, Email, dan Alamat Anda terlebih dahulu untuk pengiriman!');
+                return;
+            }
+
+            // Ambil opsi pembayaran terpilih
+            const selectedPayment = document.querySelector('input[name="payment"]:checked').value;
+            
+            // Tampilkan konfirmasi nota sukses belanja
+            alert(`🎉 TRANSAKSI BERHASIL!\n\n` +
+                  `Pelanggan: ${name}\n` +
+                  `Email: ${email}\n` +
+                  `Alamat Kirim: ${address}\n\n` +
+                  `-------------------------------\n` +
+                  `Toko: Hanna's Caffe\n` +
+                  `Metode Pembayaran: ${selectedPayment}\n` +
+                  `Total Tagihan: ${document.getElementById('cart-total').innerText}\n\n` +
+                  `Pesanan kopi Anda akan segera diracik dan dikirim oleh kurir. Terima kasih!`);
+            
+            // Reset form input & keranjang belanja
+            document.getElementById('cust-name').value = '';
+            document.getElementById('cust-email').value = '';
+            document.getElementById('cust-address').value = '';
+            cart = [];
+            updateCartUI();
+            toggleCart();
+        }
+    </script>
+</body>
+</html>
+<div class="bg-yellow-50 border-l-4 border-yellow-500 p-4 rounded-lg mb-4">
+
+<h3 class="font-bold text-lg">
+Terima kasih telah memilih Hanna's Coffee ❤️
+</h3>
+<p class="text-gray-600 mt-2">
+Pastikan pesananmu sudah benar sebelum melakukan checkout.
+Kami akan segera meracik minumanmu dengan penuh cinta agar tetap segar saat sampai di tanganmu.
+</p>
+
+</div>
+<section class="py-20 bg-[#FAF7F2]">
+
+<div class="max-w-6xl mx-auto">
+
+<h2 class="text-center text-4xl font-bold mb-10">
+Apa Kata Pelanggan?
+</h2>
+
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+⭐⭐⭐⭐⭐
+<p class="mt-4">
+"Kopinya enak banget! Aren Latte favoritku."
+</p>
+<h4 class="mt-4 font-bold">
+- Amanda
+</h4>
+</div>
+
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+⭐⭐⭐⭐⭐
+<p class="mt-4">
+"Tempatnya aesthetic dan minumannya selalu fresh."
+</p>
+<h4 class="mt-4 font-bold">
+- Rafi
+</h4>
+</div>
+
+<div class="bg-white p-6 rounded-2xl shadow-lg">
+⭐⭐⭐⭐⭐
+<p class="mt-4">
+"Pelayanannya cepat dan rasanya premium."
+</p>
+<h4 class="mt-4 font-bold">
+- Nabila
+</h4>
+</div>
+
+</div>
+
+</div>
+
+</section>
