@@ -10,27 +10,30 @@
 
 # 2. Deskripsi Bisnis
 
-**Hanna's Caffe** adalah sebuah website e-commerce yang bergerak di bidang penjualan minuman kopi premium dengan konsep modern, minimalis, dan aesthetic. Website ini dirancang untuk memudahkan pelanggan dalam memesan berbagai varian kopi secara online tanpa harus datang langsung ke toko.
+**Hanna's Caffe** merupakan sebuah website e-commerce yang bergerak di bidang penjualan minuman kopi dan non-coffee secara online. Website ini dirancang untuk memberikan pengalaman berbelanja yang mudah, cepat, aman, dan nyaman bagi pelanggan dengan tampilan yang modern, minimalis, serta aesthetic.
 
-Melalui website ini pelanggan dapat melihat katalog produk, membaca deskripsi setiap menu, memasukkan produk ke dalam keranjang belanja, mengubah jumlah pesanan, mengisi data pengiriman, memilih metode pembayaran, hingga melakukan proses checkout.
+Melalui website Hanna's Caffe, pelanggan dapat melihat berbagai pilihan menu kopi maupun non-coffee lengkap dengan gambar, deskripsi, dan harga. Pelanggan juga dapat menambahkan produk ke keranjang belanja, mengubah jumlah pesanan, mengisi data pengiriman, memilih metode pembayaran digital, hingga menyelesaikan proses checkout secara praktis.
 
-Website Hanna's Caffe dibangun dengan tujuan memberikan pengalaman berbelanja yang mudah, cepat, aman, dan nyaman bagi seluruh pelanggan.
+Konsep bisnis Hanna's Caffe menggabungkan kualitas produk, pelayanan yang ramah, kemudahan teknologi, dan desain antarmuka yang menarik sehingga mampu memberikan pengalaman berbelanja yang menyenangkan bagi pelanggan.
+
+Website ini juga dirancang agar responsif sehingga dapat diakses melalui komputer, laptop, tablet, maupun smartphone tanpa mengurangi kenyamanan pengguna.
 
 ---
 
 # 3. Value Proposition
 
-Hanna's Caffe menawarkan beberapa keunggulan yang menjadi nilai tambah dibandingkan kompetitor, yaitu:
+Hanna's Caffe memiliki beberapa keunggulan yang menjadi nilai tambah dibandingkan kompetitor, antara lain:
 
-* Menyediakan kopi berkualitas menggunakan biji kopi pilihan.
-* Menawarkan berbagai varian kopi modern yang disukai berbagai kalangan.
-* Desain website yang sederhana, elegan, dan mudah digunakan.
-* Proses pembelian cepat hanya dalam beberapa langkah.
-* Menyediakan berbagai pilihan metode pembayaran digital.
-* Harga produk yang kompetitif.
-* Pelayanan pelanggan yang cepat dan ramah.
-* Tampilan website responsif sehingga dapat digunakan melalui laptop maupun smartphone.
-* Menggunakan foto produk berkualitas tinggi sehingga pelanggan dapat melihat produk dengan jelas.
+* Menyediakan kopi berkualitas menggunakan biji kopi premium.
+* Menawarkan berbagai pilihan menu kopi dan non-coffee.
+* Produk dibuat menggunakan bahan-bahan berkualitas tinggi.
+* Tampilan website modern, elegan, dan mudah digunakan.
+* Proses pemesanan yang sederhana dan cepat.
+* Menyediakan sistem keranjang belanja yang interaktif.
+* Memiliki berbagai pilihan pembayaran digital.
+* Harga yang kompetitif dan terjangkau.
+* Pelayanan pelanggan yang cepat dan responsif.
+* Desain website responsif sehingga nyaman digunakan pada berbagai perangkat.
 
 ---
 
@@ -38,41 +41,46 @@ Hanna's Caffe menawarkan beberapa keunggulan yang menjadi nilai tambah dibanding
 
 ## Target Market
 
-Target pasar Hanna's Caffe adalah masyarakat Indonesia yang memiliki gaya hidup modern, menyukai kopi, serta terbiasa melakukan pembelian secara online.
+Target pasar Hanna's Caffe adalah masyarakat Indonesia yang memiliki gaya hidup modern, menyukai minuman berkualitas, serta terbiasa melakukan pembelian secara online.
 
-### Segmentasi Berdasarkan Demografi
+### Segmentasi Demografis
 
 * Usia 17–40 tahun.
-* Laki-laki maupun perempuan.
-* Mahasiswa.
+* Laki-laki dan perempuan.
 * Pelajar.
+* Mahasiswa.
 * Karyawan.
 * Freelancer.
-* Pengusaha muda.
+* Pebisnis muda.
 
-### Segmentasi Berdasarkan Geografi
+### Segmentasi Geografis
 
-* Kota Bandung.
-* Jakarta.
-* Surabaya.
-* Yogyakarta.
-* Seluruh wilayah Indonesia melalui layanan pengiriman.
+Target pemasaran meliputi:
 
-### Segmentasi Berdasarkan Psikografi
+* Bandung
+* Jakarta
+* Surabaya
+* Yogyakarta
+* Semarang
+* Seluruh Indonesia melalui layanan pengiriman.
 
-* Menyukai gaya hidup kekinian.
+### Segmentasi Psikografis
+
+Target pelanggan memiliki karakteristik:
+
+* Menyukai kopi premium.
+* Menyukai minuman kekinian.
 * Aktif menggunakan media sosial.
-* Menyukai nongkrong di coffee shop.
-* Senang mencoba menu kopi baru.
-* Mengutamakan kualitas rasa.
-* Memiliki mobilitas tinggi sehingga membutuhkan layanan pemesanan online.
+* Mengikuti tren lifestyle.
+* Menyukai desain yang aesthetic.
+* Mengutamakan kualitas produk.
 
-### Segmentasi Berdasarkan Perilaku
+### Segmentasi Perilaku
 
-* Sering membeli kopi secara online.
-* Loyal terhadap merek yang memberikan pelayanan baik.
-* Menyukai promo dan diskon.
-* Sering mencari rekomendasi kopi melalui media sosial.
+* Sering membeli makanan dan minuman secara online.
+* Menyukai promo.
+* Loyal terhadap merek yang memberikan pelayanan terbaik.
+* Senang mencoba menu baru.
 
 ---
 
@@ -80,23 +88,28 @@ Target pasar Hanna's Caffe adalah masyarakat Indonesia yang memiliki gaya hidup 
 
 ## Analisis Pasar
 
-Industri kopi di Indonesia mengalami perkembangan yang sangat pesat dalam beberapa tahun terakhir. Meningkatnya jumlah coffee shop, berkembangnya budaya minum kopi, serta semakin banyaknya masyarakat yang bekerja secara fleksibel membuat permintaan terhadap kopi terus meningkat.
+Industri kopi di Indonesia berkembang sangat pesat dalam beberapa tahun terakhir. Pertumbuhan coffee shop, meningkatnya budaya minum kopi, serta perkembangan teknologi digital menyebabkan masyarakat semakin terbiasa memesan makanan dan minuman secara online.
 
-Selain itu, perkembangan e-commerce juga memberikan peluang besar bagi bisnis kopi untuk menjangkau konsumen yang lebih luas. Pelanggan kini lebih menyukai proses pemesanan secara online karena lebih praktis dan efisien.
+Selain kopi, permintaan terhadap minuman non-coffee seperti matcha, chocolate, taro, dan strawberry juga mengalami peningkatan, terutama di kalangan remaja dan mahasiswa.
 
-### Peluang Pasar
+Dengan memanfaatkan platform digital, Hanna's Caffe memiliki peluang besar untuk menjangkau pelanggan yang lebih luas tanpa harus membuka banyak cabang fisik.
 
-* Pertumbuhan konsumsi kopi di Indonesia.
+### Peluang
+
+* Pertumbuhan industri kopi nasional.
 * Meningkatnya penggunaan smartphone.
 * Kebiasaan masyarakat melakukan pembelian online.
-* Tren minuman kopi yang terus berkembang.
+* Tren minuman premium.
+* Dukungan media sosial sebagai sarana promosi.
 
-### Tantangan Pasar
+### Tantangan
 
-* Persaingan bisnis yang tinggi.
-* Banyaknya coffee shop baru.
-* Fluktuasi harga bahan baku kopi.
+* Persaingan bisnis coffee shop yang tinggi.
+* Banyak merek kopi terkenal.
+* Harga bahan baku kopi yang fluktuatif.
 * Perubahan tren minuman yang cepat.
+
+---
 
 ## Analisis Kompetitor
 
@@ -104,101 +117,137 @@ Selain itu, perkembangan e-commerce juga memberikan peluang besar bagi bisnis ko
 
 **Kelebihan**
 
-* Merek terkenal secara internasional.
-* Banyak pilihan menu.
-* Memiliki aplikasi loyalitas pelanggan.
+* Brand internasional.
+* Banyak cabang.
+* Produk premium.
+* Program loyalitas pelanggan.
 
 **Kekurangan**
 
 * Harga relatif mahal.
 
+---
+
 ### Kopi Kenangan
 
 **Kelebihan**
 
-* Harga lebih terjangkau.
+* Harga terjangkau.
 * Banyak cabang.
-* Memiliki aplikasi sendiri.
+* Aplikasi sendiri.
 
 **Kekurangan**
 
-* Persaingan yang sangat tinggi.
+* Persaingan sangat tinggi.
+
+---
 
 ### Janji Jiwa
 
 **Kelebihan**
 
 * Produk mudah ditemukan.
-* Harga bersaing.
+* Harga kompetitif.
 
 **Kekurangan**
 
 * Variasi menu tidak sebanyak kompetitor besar.
+
+---
 
 ### Fore Coffee
 
 **Kelebihan**
 
 * Pemesanan berbasis aplikasi.
-* Pelayanan cepat.
+* Proses pelayanan cepat.
 
 **Kekurangan**
 
-* Belum menjangkau seluruh daerah.
+* Belum tersedia di semua daerah.
+
+---
 
 ## Keunggulan Hanna's Caffe
 
-* Tampilan website lebih sederhana dan mudah dipahami.
+* Website ringan dan cepat.
+* Tampilan lebih aesthetic.
 * Harga kompetitif.
-* Konsep aesthetic.
+* Menyediakan menu kopi dan non-coffee.
+* Checkout sederhana.
+* Pembayaran digital lengkap.
 * Pelayanan lebih personal.
-* Checkout mudah.
-* Website ringan dan cepat diakses.
 
 ---
 
 # 6. Strategi Manajemen Produk & Katalog
 
-Website menyediakan beberapa kategori produk utama, yaitu:
+## Kategori Produk
 
-| No | Produk             |
-| -- | ------------------ |
-| 1  | Vanilla Latte      |
-| 2  | Iced Aren Latte    |
-| 3  | Cappuccino Classic |
-| 4  | Caramel Macchiato  |
-| 5  | Iced Cafe Mocha    |
-| 6  | Flat White         |
-| 7  | Hanna's Cold Brew  |
-| 8  | Hazelnut Frappe    |
+### Coffee Series
 
-## Deskripsi Produk
+* Vanilla Latte
+* Iced Aren Latte
+* Cappuccino Classic
+* Caramel Macchiato
+* Iced Cafe Mocha
+* Flat White
+* Hanna's Cold Brew
+* Hazelnut Frappe
 
-Setiap produk memiliki informasi sebagai berikut:
+### Non Coffee Series
 
-* Nama produk.
+* Matcha Latte
+* Chocolate Latte
+* Taro Latte
+* Strawberry Milk
+
+---
+
+## Strategi Pengelolaan Produk
+
+Setiap produk ditampilkan dengan informasi lengkap meliputi:
+
 * Foto produk berkualitas tinggi.
-* Harga.
+* Nama produk.
 * Kategori produk.
+* Harga.
 * Deskripsi singkat.
-* Tombol tambah ke keranjang.
+* Tombol Tambah ke Keranjang.
 
-### Contoh Deskripsi Produk
+---
 
-**Vanilla Latte**
+## Contoh Deskripsi Produk
 
-Perpaduan espresso premium dengan susu segar dan sirup vanilla yang menghasilkan cita rasa lembut, creamy, dan aroma kopi yang khas. Cocok dinikmati kapan saja.
+### Vanilla Latte
 
-## Strategi Visual Produk
+Perpaduan espresso premium dengan susu segar dan sirup vanilla yang menghasilkan rasa lembut, creamy, dan aroma kopi yang khas.
 
-Website menggunakan strategi visual berupa:
+### Matcha Latte
 
+Menggunakan bubuk matcha premium Jepang yang dipadukan dengan susu segar sehingga menghasilkan rasa creamy, lembut, dan menenangkan.
+
+### Chocolate Latte
+
+Cokelat premium berpadu dengan susu segar menghasilkan rasa manis yang kaya dan cocok dinikmati segala usia.
+
+### Strawberry Milk
+
+Perpaduan susu segar dan stroberi pilihan menghasilkan rasa manis, segar, dan creamy.
+
+---
+
+## Strategi Visual
+
+Website menggunakan konsep visual modern dengan:
+
+* Warna dominan cream, cokelat, putih, dan emas.
 * Foto produk HD.
-* Warna dominan cokelat, cream, dan putih.
-* Tata letak berbentuk grid sehingga mudah dilihat.
+* Grid layout.
 * Ikon modern.
-* Font yang mudah dibaca.
-* Desain responsif pada desktop maupun smartphone.
+* Font elegan.
+* Desain responsif.
+* Animasi hover pada tombol.
 
 ---
 
@@ -206,18 +255,21 @@ Website menggunakan strategi visual berupa:
 
 ## Model Bisnis
 
-Hanna's Caffe menggunakan model bisnis **Business to Consumer (B2C)**, yaitu menjual produk langsung kepada konsumen melalui website.
+Hanna's Caffe menerapkan model **Business to Consumer (B2C)**, yaitu menjual produk secara langsung kepada konsumen melalui website.
+
+---
 
 ## Revenue Stream
 
-Sumber pendapatan berasal dari:
+Pendapatan diperoleh dari:
 
-* Penjualan kopi.
-* Penjualan menu musiman.
+* Penjualan menu kopi.
+* Penjualan menu non-coffee.
 * Paket bundling.
-* Promo spesial.
+* Promo musiman.
+* Penjualan menu edisi spesial.
 * Biaya pengiriman.
-* Penjualan menu edisi terbatas.
+* Penjualan merchandise di masa mendatang.
 
 ---
 
@@ -225,36 +277,52 @@ Sumber pendapatan berasal dari:
 
 ## Strategi Harga
 
-Strategi harga yang digunakan adalah:
+Strategi harga yang digunakan meliputi:
 
 * Competitive Pricing.
-* Psychological Pricing (contoh Rp29.000).
+* Psychological Pricing.
 * Bundle Pricing.
 * Seasonal Pricing.
+
+Contoh harga:
+
+Vanilla Latte : Rp28.000
+
+Flat White : Rp27.000
+
+Chocolate Latte : Rp28.000
+
+Matcha Latte : Rp29.000
+
+---
 
 ## Strategi Promosi
 
 Promosi dilakukan melalui:
 
-* Instagram.
-* TikTok.
-* Facebook.
-* WhatsApp Business.
-* Influencer.
-* Email Marketing.
-* Google Business Profile.
+* Instagram
+* TikTok
+* Facebook
+* WhatsApp Business
+* Google Business Profile
+* Email Marketing
+* Influencer Marketing
+* Giveaway
+* Flash Sale
+* Live Streaming
+
+---
 
 ## Strategi Diskon
 
-Beberapa program diskon yang diberikan yaitu:
-
 * Diskon pelanggan baru 10%.
-* Voucher gratis ongkir.
-* Flash Sale.
 * Buy 2 Get 1.
-* Cashback menggunakan e-wallet tertentu.
+* Voucher gratis ongkir.
+* Cashback menggunakan e-wallet.
+* Promo akhir pekan.
 * Promo Hari Kemerdekaan.
-* Promo akhir tahun.
+* Promo Natal dan Tahun Baru.
+* Promo ulang tahun pelanggan.
 
 ---
 
@@ -263,128 +331,147 @@ Beberapa program diskon yang diberikan yaitu:
 ## Alur Checkout
 
 1. Pelanggan membuka website Hanna's Caffe.
-2. Memilih produk kopi.
+2. Memilih produk yang diinginkan.
 3. Menekan tombol **Tambah ke Keranjang**.
 4. Membuka halaman keranjang.
 5. Mengubah jumlah pesanan jika diperlukan.
 6. Mengisi nama lengkap.
-7. Mengisi alamat email.
+7. Mengisi email.
 8. Mengisi alamat pengiriman.
 9. Memilih metode pembayaran.
 10. Menekan tombol **Checkout Sekarang**.
-11. Sistem memproses pembayaran.
-12. Status pesanan berubah menjadi **Processing**.
-13. Pesanan disiapkan dan dikirim.
-
-## Simulasi Payment Gateway
-
-Website menggunakan **Midtrans Sandbox** sebagai simulasi payment gateway.
-
-### Metode Pembayaran
-
-* Virtual Account BNI
-* Virtual Account BRI
-* GoPay
-* ShopeePay
-* DANA
-* QRIS
-
-### Contoh Simulasi Transaksi
-
-**Nama Pelanggan:** Andi Saputra
-
-**Produk**
-
-* Vanilla Latte = Rp28.000
-* Flat White = Rp27.000
-* Hazelnut Frappe = Rp34.000
-
-Subtotal = Rp89.000
-
-Ongkos Kirim = Rp15.000
-
-**Total Pembayaran = Rp104.000**
-
-Metode Pembayaran = GoPay
-
-Status Pembayaran = **Success**
-
-Status Pesanan = **Processing**
-
-Invoice = INV-2026-0001
+11. Sistem mengirim data ke Midtrans Sandbox.
+12. Pembayaran berhasil diverifikasi.
+13. Pesanan masuk ke sistem.
+14. Status pesanan menjadi **Processing**.
+15. Pesanan disiapkan oleh barista.
+16. Produk dikirim kepada pelanggan.
 
 ---
 
-# 10. Rencana SEO, Keamanan, dan Pemeliharaan Website
+## Simulasi Payment Gateway (Midtrans Sandbox)
 
-## Search Engine Optimization (SEO)
+Payment Gateway yang digunakan adalah **Midtrans Sandbox** sebagai simulasi transaksi online.
 
-Strategi SEO yang akan diterapkan meliputi:
+### Metode Pembayaran
 
-* Menggunakan keyword seperti **kopi premium**, **coffee shop online**, **kopi kekinian**, dan **pesan kopi online**.
-* Meta Title yang menarik.
-* Meta Description.
-* URL SEO Friendly.
+* QRIS
+* GoPay
+* DANA
+* ShopeePay
+* Virtual Account BNI
+* Virtual Account BRI
+* Virtual Account Mandiri
+* Kartu Kredit (Sandbox)
+
+### Contoh Simulasi Transaksi
+
+Nomor Pesanan : INV-2026-00125
+
+Nama Pelanggan : Hanna Nurfadillah
+
+Produk:
+
+* Vanilla Latte (2 x Rp28.000) = Rp56.000
+* Matcha Latte (1 x Rp29.000) = Rp29.000
+* Strawberry Milk (1 x Rp27.000) = Rp27.000
+
+Subtotal : Rp112.000
+
+Ongkos Kirim : Rp15.000
+
+Total Pembayaran : **Rp127.000**
+
+Metode Pembayaran : GoPay
+
+Status Pembayaran : **Success**
+
+Status Pesanan : **Processing**
+
+Estimasi Pengiriman : 30–60 menit.
+
+---
+
+# 10. Rencana SEO, Keamanan, dan Pemeliharaan
+
+## Strategi SEO
+
+Agar website mudah ditemukan pada mesin pencari Google, strategi SEO yang diterapkan meliputi:
+
+* Keyword seperti *kopi premium*, *coffee shop online*, *kopi kekinian*, *matcha latte*, dan *pesan kopi online*.
+* Meta Title dan Meta Description yang menarik.
+* URL yang ramah SEO.
+* Alt Text pada setiap gambar produk.
 * Sitemap XML.
-* Optimasi gambar menggunakan Alt Text.
-* Website responsif.
-* Kecepatan loading tinggi.
-* Pembuatan artikel blog mengenai kopi.
+* Struktur heading yang baik (H1–H3).
+* Optimasi kecepatan website.
+* Desain mobile-friendly.
+* Pembuatan artikel blog tentang kopi dan gaya hidup.
+
+---
 
 ## Keamanan Website
 
-Untuk menjaga keamanan website, beberapa langkah yang dilakukan antara lain:
+Langkah-langkah keamanan yang diterapkan:
 
 * SSL (HTTPS).
-* Validasi seluruh input pengguna.
-* Enkripsi password.
-* Backup database secara berkala.
-* Firewall.
-* Perlindungan SQL Injection.
-* Perlindungan Cross Site Scripting (XSS).
-* Monitoring keamanan server.
+* Validasi input pengguna.
+* Enkripsi password pengguna.
+* Backup database otomatis.
+* Firewall server.
+* Perlindungan terhadap SQL Injection.
+* Perlindungan terhadap Cross Site Scripting (XSS).
+* Pembaruan sistem secara berkala.
+* Monitoring aktivitas login.
+
+---
 
 ## Pemeliharaan Website
 
-Pemeliharaan dilakukan secara rutin melalui:
+Pemeliharaan dilakukan secara rutin dengan cara:
 
-* Update harga produk.
-* Update stok.
-* Backup mingguan.
-* Monitoring performa website.
-* Perbaikan bug.
+* Memperbarui katalog produk.
+* Memperbarui harga.
+* Memastikan stok selalu tersedia.
+* Backup database mingguan.
+* Memperbaiki bug.
+* Monitoring performa server.
 * Update fitur baru.
-* Monitoring keamanan.
+* Monitoring keamanan website.
 
 ---
 
 # 11. Rencana Penggunaan Data Analytics untuk Pengambilan Keputusan
 
-Website akan memanfaatkan data analytics agar keputusan bisnis didasarkan pada data yang akurat.
+Website akan memanfaatkan **Google Analytics** dan data transaksi internal untuk membantu pengambilan keputusan bisnis.
 
 ## Data yang Dikumpulkan
 
 * Jumlah pengunjung website.
-* Produk yang paling banyak dilihat.
-* Produk yang paling banyak dibeli.
-* Produk yang sering dimasukkan ke keranjang.
-* Produk yang dibatalkan pembeliannya.
-* Waktu kunjungan pelanggan.
-* Asal pengunjung.
-* Nilai rata-rata transaksi.
+* Halaman yang paling banyak dikunjungi.
+* Produk yang paling sering dilihat.
+* Produk terlaris.
+* Produk yang sering ditambahkan ke keranjang.
+* Produk yang dibatalkan saat checkout.
+* Nilai rata-rata transaksi pelanggan.
 * Metode pembayaran yang paling sering digunakan.
+* Lokasi pelanggan.
+* Waktu kunjungan terbanyak.
+* Tingkat konversi penjualan.
+* Sumber trafik pengunjung (Google, Instagram, TikTok, Facebook, dll.).
 
-## Pemanfaatan Data
+## Pemanfaatan Data Analytics
 
-Data tersebut digunakan untuk:
+Data tersebut akan digunakan untuk:
 
 * Menentukan produk favorit pelanggan.
-* Menambah stok produk yang paling laris.
-* Mengurangi stok produk yang kurang diminati.
-* Menentukan strategi promosi yang lebih efektif.
-* Membuat rekomendasi produk kepada pelanggan.
-* Menentukan waktu terbaik untuk mengadakan promo.
+* Mengoptimalkan stok produk.
+* Menentukan strategi promosi yang paling efektif.
+* Menyusun rekomendasi produk kepada pelanggan.
+* Mengevaluasi performa kampanye pemasaran digital.
+* Menentukan jam operasional dan waktu terbaik untuk promosi.
 * Meningkatkan pengalaman pengguna (User Experience).
-* Mengevaluasi performa penjualan setiap bulan.
+* Mengembangkan menu baru sesuai tren pasar.
+* Meningkatkan kepuasan pelanggan melalui keputusan bisnis yang berbasis data.
 
-Dengan penerapan data analytics secara berkelanjutan, Hanna's Caffe dapat meningkatkan penjualan, memperbaiki kualitas layanan, memahami perilaku pelanggan, serta mengambil keputusan bisnis yang lebih efektif dan tepat sasaran.
+Dengan memanfaatkan data analytics secara berkelanjutan, Hanna's Caffe diharapkan mampu meningkatkan penjualan, memperluas jangkauan pasar, memperkuat loyalitas pelanggan, serta membangun bisnis yang berkelanjutan dan kompetitif di industri minuman kopi dan non-coffee.
